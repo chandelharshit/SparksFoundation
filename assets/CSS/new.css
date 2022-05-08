@@ -1,0 +1,104 @@
+@import url('http://fonts.cdnfonts.com/css/product-sans');
+*{
+    box-sizing: border-box;
+    font-family: 'Product Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#product-overview{
+    background: url("freedom.jpg");
+    height: 598px;
+    width: 100%;
+    padding: 10px;
+}
+h1{
+    color: white;
+}
+#section-title{
+    color: #2ddf5c;
+}
+.main-header{
+    /* margin-top: 10px; */
+   width: 100%; 
+   background: #fff;
+   padding: 20px ;
+   /* padding-bottom: 10px; */
+   border-radius: 30px;
+   /* box-shadow: 4px 5px 8px 10px rgba(111, 110, 110, 0.5); */
+   /* border: 1px solid rgb(27, 27, 58) ; */
+}
+.main-header img{
+    width: 40px;
+    height: 40px;
+}
+.main_nav__brand{
+    font-family: 'Product Sans', sans-serif;
+    color: rgb(27, 27, 58);
+    font-weight: bold;
+    font-size: 23px;
+    padding-left: 18px;
+    font-weight: 800;
+}
+.main-header > div{
+    display: inline-block;
+    vertical-align: middle;
+}
+.main_nav{
+    display: inline-block;
+    text-align: right;
+    width: calc(83% - 106px);
+}
+.main_nav__items{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    vertical-align: middle;
+}
+.main_nav__item{
+    display: inline-block;
+    /* padding: 10px; */
+    margin: 0 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.main_nav__item a{
+    color: rgb(27, 27, 58);
+    font-weight: 800;
+    letter-spacing: 0.09rem;
+    padding: 3px 0;
+}
+a{
+    text-decoration: none;
+}
+.main_nav__item a:hover ,
+.main_nav__item a:active{
+    background: rgb(27, 27, 58);
+    padding: 8px 16px;
+    border-radius: 30px;
+    color: white; 
+    border-bottom: 5px solid white;   
+}
+.main_nav__item__cta a{
+    /* color: white; */
+    color: rgb(27, 27, 58);
+    /* background: rgb(27, 27, 58); */
+    /* padding: 8px 16px;
+    border-radius: 8px; */
+}
+.main_nav__item__cta a:hover,
+.main_nav__item__cta a:active{
+    /* color: #fff;
+    background: #fff;
+    border: none; */
+
+    background: rgb(27, 27, 58);
+    padding: 8px 16px;
+    border-radius: 30px;
+    color: white; 
+    border-bottom: 5px solid white; 
+}
+
+.para::first-letter{
+    font-weight: bold;
+    font-size: 30px;
+}
